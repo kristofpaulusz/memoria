@@ -1,9 +1,10 @@
 body {
   margin: auto;
   background: tan;
-  width: 75%;
+  width: 95%;
   text-align: center;
   color: white;
+  font-size: x-small;
 }
 #board {
   display: flex;
@@ -18,8 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25px;
-  width: 25px;
+  height: 60px;
+  width: 60px;
   margin: 5px;
 }
 .card {
@@ -44,8 +45,8 @@ body {
   -webkit-transform: rotateY(180deg);
 }
 img {
-  width: 25px;
-  height: 25px;
+  width: 60px;
+  height: 60px;
 }
 
 @media (min-width: 768px) {
